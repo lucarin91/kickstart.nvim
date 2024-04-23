@@ -878,6 +878,7 @@ require('lazy').setup({
       vim.keymap.set('n', '<leader>gs', ':Git<enter>', { desc = '[G]it [S]tatus' })
     end,
   },
+  'github/copilot.vim',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
