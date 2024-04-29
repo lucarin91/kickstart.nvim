@@ -879,7 +879,7 @@ require('lazy').setup({
     'tpope/vim-fugitive',
     version = '*',
     config = function(_, _)
-      vim.keymap.set('n', '<leader>gs', ':Git<enter>', { desc = '[G]it [S]tatus' })
+      vim.keymap.set('n', '<leader>g', ':Git<enter>', { desc = '[G]it Status' })
     end,
   },
   'github/copilot.vim',
